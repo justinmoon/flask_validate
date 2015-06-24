@@ -13,6 +13,7 @@ setup(
     license='MIT',
     author='Justin Moen',
     author_email='jamoen7@gmail.com',
+    py_modules=['flask_validate'],
     description='API payload validation',
     long_description=__doc__,
     zip_safe=False,
