@@ -10,7 +10,7 @@ setup(
     name='Flask-Validate',
     version='0.0.1',
     url='https://karmiclabs.com/Flask-Validate',
-    license='???',
+    license='MIT',
     author='Justin Moen',
     author_email='jamoen7@gmail.com',
     description='API payload validation',
@@ -20,7 +20,6 @@ setup(
     platforms='any',
     install_requires=[
         'Flask',
-        '???',
     ],
     classifiers=[
         'Environment :: Web Environment',
