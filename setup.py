@@ -9,7 +9,7 @@ from setuptools import setup
 setup(
     name='Flask-Validate',
     version='0.0.1',
-    url='https://karmiclabs.com/Flask-Validate',
+    url='https://github.com/stockninja/flask_validate',
     license='MIT',
     author='Justin Moen',
     author_email='jamoen7@gmail.com',
@@ -21,6 +21,7 @@ setup(
     platforms='any',
     install_requires=[
         'Flask',
+        'jsonschema',
     ],
     classifiers=[
         'Environment :: Web Environment',
